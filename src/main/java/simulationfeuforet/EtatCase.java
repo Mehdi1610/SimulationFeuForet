@@ -5,8 +5,8 @@ package simulationfeuforet;
 public enum EtatCase {
 
     VIDE('■'),
-    EN_FEU('⚠'),
-    CENDRE('□');
+    EN_FEU('F'),
+    CENDRE('#');
 
     private final char symbole ;
 

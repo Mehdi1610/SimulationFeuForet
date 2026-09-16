@@ -15,7 +15,7 @@ public class EtatCaseTest {
 
     @Test
     void everyStateHaveADifferentSign(){
-        assertEquals('.',EtatCase.VIDE.getSymbole());
+        assertEquals('■',EtatCase.VIDE.getSymbole());
         assertEquals('F',EtatCase.EN_FEU.getSymbole());
         assertEquals('#',EtatCase.CENDRE.getSymbole());
     }
